@@ -1,4 +1,13 @@
 .footer {
   background-color: $color-secondary;
   grid-column: full-start / full-end;
+  padding: 8rem;
+}
+
+.nav {
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
